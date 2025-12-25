@@ -1,0 +1,15 @@
+[project]
+name = "mwj-tools"
+version = "0.1.0"
+description = "梦无矶的python工具库,不定时更新..."
+readme = "README.md"
+authors = [
+    { name = "van_liu", email = "826199528@qq.com" }
+]
+requires-python = ">=3.13"
+# 项目依赖 - uv publish会正确处理这些
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]  # uv publish推荐使用hatchling
+build-backend = "hatchling.core"
